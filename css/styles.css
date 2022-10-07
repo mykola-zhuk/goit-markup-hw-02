@@ -12,13 +12,75 @@
   --link-hover-color: #2196f3;
   --logo-color-1: #2196f3;
   --logo-color-2: #000000;
-  --footer-background-color: #2f303a;
-  --header-background-color: #ffffff;
+  --first-background-color: #ffffff;
+  --second-background-color: #2f303a;
+  
 }
 body {
   font-family: "roboto", sans-serif;
   color: var(--main-text-color);
-  background-color: var(--main-background-color);
+}
+/* ----------STUDIO PEGE MAIN----------  */
+.studio-hero {
+  background-color:var(--second-background-color);
+}
+.studiio-hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--first-background-color);
+}
+.studiio-hero-btn {
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--logo-color-1);
+}
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.list {
+}
+.advanteges-item {
+}
+.advantages-name {
+}
+.advantages-text {
+}
+.link {
+}
+.company-servise {
+}
+.service-title {
+}
+.serviise-list {
+}
+.service-item {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-member {
+}
+.team-post {
 }
 .list {
   list-style: none;
@@ -44,7 +106,7 @@ body {
 }
 /* ----------SITE HEADER---------- */
 .site-header {
-  background-color: var(--header-background-color);
+  background-color: var(--first-background-color);
 }
 .logo-word-web {
   font-family: "Raleway", sans-serif;
@@ -77,8 +139,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-/*----------STUDIIO PAGE MAIN----------*/
-
 /*----------PORTFOLIO PAGE MAIN----------*/
 .filter-btn {
   font-family: inherit;
@@ -121,7 +181,7 @@ body {
 }
 /* ----------FOOTER---------- */
 .footeer {
-  background-color: var(--footer-background-color);
+  background-color: var(--second-background-color));
 }
 .adress {
   font-style: normal;
