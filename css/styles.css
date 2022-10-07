@@ -1,4 +1,4 @@
- :root {
+:root {
   /* Colors */
   --main-text-color: #212121;
   --main-link-color: #212121;
@@ -13,6 +13,7 @@
   --logo-color-1: #2196f3;
   --logo-color-2: #000000;
   --footer-background-color: #2f303a;
+  --header-background-color: #ffffff;
 }
 body {
   font-family: "roboto", sans-serif;
@@ -41,7 +42,10 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* ----------HEADER---------- */
+/* ----------SITE HEADER---------- */
+.site-header {
+  background-color: var(--header-background-color);
+}
 .logo-word-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -71,11 +75,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--second-text-color);
+  color: var(--second-text-color);
 }
+/*----------STUDIIO PAGE MAIN----------*/
 
-/*----------MAIN----------*/
-/* ----------Filter Menu---------- */
+/*----------PORTFOLIO PAGE MAIN----------*/
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -100,7 +104,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-/* ----------PROJECTS---------- */
+/* ----------PORTFOIO PROJECTS---------- */
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -115,14 +119,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
 /* ----------FOOTER---------- */
 .footeer {
-  background: var(--footer-background-color);
- }
- .adress {
+  background-color: var(--footer-background-color);
+}
+.adress {
   font-style: normal;
- }
+}
 .map-link {
   font-size: 14px;
   line-height: 1.71;
