@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -12,8 +18,8 @@
     <header class="site-header">
       <nav>
         <a href="./index.html" class="site-logo link"
-          ><span class="word-web">Web</span
-          ><span class="word-studio">Studio</span>
+          ><span class="logo-word-web">Web</span
+          ><span class="logo-word-studio">Studio</span>
         </a>
         <ul class="site-nav list">
           <li><a href="./index.html" class="site-nav-link link">Студія</a></li>
@@ -23,14 +29,14 @@
           <li><a href="" class="site-nav-link link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="company-contacts list">
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="company-mail link"
+          <a href="mailto:info@devstudio.com" class="site-nav-contacts link"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" class="company-tel link"
+          <a href="tel:+380961111111" class="site-nav-contacts link"
             >+38 096 111 11 11</a
           >
         </li>
@@ -41,8 +47,7 @@
     <main>
       <!--Portfolio menu filters-->
       <section>
-        <h1>Portfolio menu filtres</h1>
-        <!--Hide me-->
+        <h1 class="visually-hidden">Portfolio menu filtres</h1>
         <ul class="filter list">
           <li class="filter-item">
             <button type="button" class="filter-btn">Усі</button>
@@ -62,9 +67,8 @@
         </ul>
       </section>
       <!--Projects-->
-
       <section class="projects">
-        <h2>Studio projects</h2>
+        <h2 class="visually-hidden">Studio projects</h2>
         <!--Hide me-->
         <ul class="projects-list list">
           <li>
@@ -170,26 +174,26 @@
     <!-- Footeer -->
     <footer class="footeer">
       <a href="./index.html" class="site-logo link">
-        <span class="word-web">Web</span><span class="word-studio">Studio</span>
+        <span class="logo-word-web">Web</span>
+        <span class="logo-word-studio">Studio</span>
       </a>
-      <address>
+      <address class="adress">
         <a
           href="https://goo.gl/maps/4eTBozPo4Wdr3xK28"
           target="_blank"
           rel="noopener nofollow"
+          class="map-link link"
         >
-          <span class="adress-on-map link"
-            >м. Київ, пр-т Лесі Українки, 26</span
-          >
+          м. Київ, пр-т Лесі Українки, 26
         </a>
-        <ul class="company-contacts list">
+        <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com" class="company-mail link"
+            <a href="mailto:info@devstudio.com" class="footer-contacts link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="company-tel link"
+            <a href="tel:+380961111111" class="footer-contacts link"
               >+38 096 111 11 11</a
             >
           </li>

@@ -1,10 +1,10 @@
-:root {
+ :root {
+  /* Colors */
   --main-text-color: #212121;
   --main-link-color: #212121;
   --btn-color: #212121;
-  --btn-bacground-color: #f5f4fa;
+  --btn-background-color: #f5f4fa;
   --second-text-color: #757575;
-  --company-contacts-color: #757575;
   --third-text-color: #ffffff;
   --btn-hover-color: #ffffff;
   --btn-hover-background-color: #2196f3;
@@ -14,7 +14,6 @@
   --logo-color-2: #000000;
   --footer-background-color: #2f303a;
 }
-
 body {
   font-family: "roboto", sans-serif;
   color: var(--main-text-color);
@@ -30,8 +29,20 @@ body {
 .link:focus {
   color: var(--link-hover-color);
 }
-/* ----------Header---------- */
-.word-web {
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* ----------HEADER---------- */
+.logo-word-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -40,7 +51,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-color-1);
 }
-.word-studio {
+.logo-word-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -55,15 +66,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-link-color);
 }
-.company-mail,
-.company-tel {
+.site-nav-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--company-contacts-color);
+  color:var(--second-text-color);
 }
-/*----------Main----------*/
+
+/*----------MAIN----------*/
 /* ----------Filter Menu---------- */
 .filter-btn {
   font-family: inherit;
@@ -89,7 +100,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-/* ----------Projects---------- */
+/* ----------PROJECTS---------- */
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -105,13 +116,23 @@ body {
   color: var(--second-text-color);
 }
 
-/* ----------footer---------- */
+/* ----------FOOTER---------- */
 .footeer {
   background: var(--footer-background-color);
-}
-.adress-on-map {
+ }
+ .adress {
+  font-style: normal;
+ }
+.map-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
