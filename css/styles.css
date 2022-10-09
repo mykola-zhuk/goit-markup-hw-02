@@ -14,55 +14,65 @@
   --logo-color-2: #000000;
   --first-background-color: #ffffff;
   --second-background-color: #2f303a;
-  
 }
 body {
   font-family: "roboto", sans-serif;
   color: var(--main-text-color);
 }
+h2 {
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
 /* ----------STUDIO PEGE MAIN----------  */
-.studio-hero {
-  background-color:var(--second-background-color);
+.studio-main {
+}
+.studio-hero {}
 }
 .studiio-hero-title {
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color:var(--first-background-color);
+color: var(--third-text-color);
 }
-.studiio-hero-btn {
-  font-weight: 700;
+.studio-hero-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+color:var(--btn-hover-color);
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: var(--logo-color-1);
+background:var(--logo-color-1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
-.advantages {
+
+.advantages-name{
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--main-text-color);
 }
-.advantages-title {
-}
-.advantages-list {
-}
-.list {
-}
-.advanteges-item {
-}
-.advantages-name {
-}
-.advantages-text {
-}
-.link {
+.advantages-text{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--second-text-color);
 }
 .company-servise {
 }
 .service-title {
+
 }
 .serviise-list {
 }
@@ -82,11 +92,10 @@ background-color: var(--logo-color-1);
 }
 .team-post {
 }
+
+/* ----------------------------------------------- */
 .list {
   list-style: none;
-}
-.link {
-  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -104,9 +113,14 @@ background-color: var(--logo-color-1);
   clip-path: inset(50%);
   margin: -1px;
 }
+
 /* ----------SITE HEADER---------- */
 .site-header {
   background-color: var(--first-background-color);
+}
+.site-logo,
+.site-nav-link {
+  text-decoration: none;
 }
 .logo-word-web {
   font-family: "Raleway", sans-serif;
@@ -138,6 +152,7 @@ background-color: var(--logo-color-1);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+  text-decoration: none;
 }
 /*----------PORTFOLIO PAGE MAIN----------*/
 .filter-btn {
@@ -165,6 +180,9 @@ background-color: var(--logo-color-1);
   border-radius: 4px;
 }
 /* ----------PORTFOIO PROJECTS---------- */
+.project {
+  text-decoration: none;
+}
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -181,7 +199,7 @@ background-color: var(--logo-color-1);
 }
 /* ----------FOOTER---------- */
 .footeer {
-  background-color: var(--second-background-color));
+  background-color: var(--second-background-color);
 }
 .adress {
   font-style: normal;
@@ -191,6 +209,7 @@ background-color: var(--logo-color-1);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+  text-decoration: none;
 }
 .footer-contacts {
   font-weight: 400;
@@ -198,4 +217,5 @@ background-color: var(--logo-color-1);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
