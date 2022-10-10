@@ -19,7 +19,10 @@ body {
   font-family: "roboto", sans-serif;
   color: var(--main-text-color);
 }
-h2 {
+.advantages-title,
+.service-title,
+.team-title,
+ {
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
@@ -79,18 +82,29 @@ color:var(--second-text-color);
 .service-item {
 }
 .team {
+  background-color:var(--btn-background-color);
 }
 .team-title {
 }
 .team-list {
 }
 .team-item {
+  background-color: var(--third-text-color);
 }
 .team-img {
 }
 .team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color:var(--main-text-color)
 }
-.team-post {
+.team-position {
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
 }
 
 /* ----------------------------------------------- */
