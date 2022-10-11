@@ -19,74 +19,59 @@ body {
   font-family: "roboto", sans-serif;
   color: var(--main-text-color);
 }
+button {
+  cursor: pointer;
+}
 .advantages-title,
 .service-title,
-.team-title,
- {
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 /* ----------STUDIO PEGE MAIN----------  */
-.studio-main {
-}
-.studio-hero {}
-}
 .studiio-hero-title {
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--third-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
 }
 .studio-hero-btn {
-font-family: inherit;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-color:var(--btn-hover-color);
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-background:var(--logo-color-1);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--btn-hover-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--logo-color-1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-.advantages-name{
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--main-text-color);
+.advantages-name {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }
-.advantages-text{
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:var(--second-text-color);
-}
-.company-servise {
-}
-.service-title {
-
-}
-.serviise-list {
-}
-.service-item {
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 .team {
-  background-color:var(--btn-background-color);
-}
-.team-title {
-}
-.team-list {
+  background-color: var(--btn-background-color);
 }
 .team-item {
   background-color: var(--third-text-color);
@@ -94,20 +79,18 @@ color:var(--second-text-color);
 .team-img {
 }
 .team-member {
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color:var(--main-text-color)
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 .team-position {
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
-
-/* ----------------------------------------------- */
 .list {
   list-style: none;
 }
@@ -127,7 +110,6 @@ color: var(--second-text-color);
   clip-path: inset(50%);
   margin: -1px;
 }
-
 /* ----------SITE HEADER---------- */
 .site-header {
   background-color: var(--first-background-color);
@@ -211,7 +193,7 @@ color: var(--second-text-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-/* ----------FOOTER---------- */
+/* ----------SITE FOOTER---------- */
 .footeer {
   background-color: var(--second-background-color);
 }
