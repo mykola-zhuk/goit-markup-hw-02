@@ -81,13 +81,13 @@ button {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .team-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -137,8 +137,8 @@ button {
 }
 .site-nav-link {
   font-weight: 500;
-  font-size: 22px;
-  line-height: 1.33;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-link-color);
 }
@@ -180,14 +180,12 @@ button {
   text-decoration: none;
 }
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
 .project-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -196,6 +194,14 @@ button {
 /* ----------SITE FOOTER---------- */
 .footeer {
   background-color: var(--second-background-color);
+}
+.footer-logo-word {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
 }
 .adress {
   font-style: normal;
@@ -208,7 +214,6 @@ button {
   text-decoration: none;
 }
 .footer-contacts {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
